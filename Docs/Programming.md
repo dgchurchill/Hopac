@@ -92,7 +92,7 @@ open it up a bit.
   more
   complex[*](http://hopac.github.io/Hopac/Hopac.html#def:val%20Hopac.Alt.withNackJob)
   alternatives that encapsulate concurrent client-server protocols.
-  * **Selective** means that a form of
+* **Selective** means that a form of
   choice[*](http://hopac.github.io/Hopac/Hopac.html#def:val%20Hopac.Alt.choose)
   or disjunction between alternatives is supported.  An alternative can be
   constructed that, for example, offers to
@@ -544,17 +544,16 @@ a way it is also quite unreal.
 [UnrealScript](http://en.wikipedia.org/wiki/UnrealScript) is the scripting
 language of the [Unreal Engine](http://en.wikipedia.org/wiki/Unreal_Engine) and
 is used for making games.
-[Kismet](http://en.wikipedia.org/wiki/UnrealEd#Kismet) is a tool that enables
+[Kismet](https://en.wikipedia.org/wiki/Kismet_(gameplay_scripting)) is a tool that enables
 artists to create scripts in UnrealScript using a visual interface.  Working
 with Kismet, artists can basically create games by combining building blocks
 created by programmers.  Those building blocks can be seen as black boxes that
 have some inputs, outputs and have some interesting behavior mapping the inputs
 to outputs.
 
-On the Wikipedia page on [UnrealEd](http://en.wikipedia.org/wiki/UnrealEd) there
-is a screenshot of a simple system built using Kismet.  Take a moment to look at
-the screenshot:
-[Roboblitz](http://upload.wikimedia.org/wikipedia/en/e/e6/Kismet_Roboblitz.PNG).
+There is a screenshot of a simple system built using Kismet in its [documentation](https://udn.epicgames.com/Three/KismetExamples.html#Gates).
+Take a moment to look at the screenshot:
+[Gate Switch](https://udn.epicgames.com/Three/rsrc/Three/KismetExamples/ex_gate_switch.jpg).
 As you can see, there are basic reusable blocks like `Bool`, `Compare Bool`,
 `Delay`, and `Matinee` that have some inputs, outputs and some behavior.
 
